@@ -30,9 +30,9 @@ const agendaItemsData: AgendaItemData[] = [
         endDate: new Date('2025-10-08T23:59:59'),
     },
     {
-        title: 'Revelación del Problema',
+        title: 'Asignación de Problemas',
         date: 'Octubre 10, 2025',
-        description: 'Cada equipo recibirá un problema o desafío relacionado con IA y Blockchain abordar durante el hackathon.',
+        description: 'Cada equipo recibirá un problema o desafío relacionado con IA y Blockchain para abordar durante el hackathon.',
         startDate: new Date('2025-10-10T00:00:00'),
         endDate: new Date('2025-10-10T23:59:59'),
     },
