@@ -1,0 +1,7 @@
+{
+  "name": "opentech-hackathon-2025",
+  "compatibility_date": "2025-09-11",
+  "assets": {
+    "directory": "./dist"
+  }
+}
