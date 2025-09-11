@@ -1,12 +1,12 @@
-import type { CommunityLogoProps } from './CommunityLogo';
-import CommunityLogo from './CommunityLogo';
+import LogoSection from '../shared/components/LogoSection';
+import type { LogoCardProps } from '../shared/components/LogoCard';
 import BackboneLogo from '../assets/supporters/backbone.webp';
 import CincoLogo from '../assets/supporters/cinco.webp';
 import FLISoL from '../assets/supporters/flisol.webp';
 import QAConfLogo from '../assets/supporters/qaconf.webp';
 import UTPLogo from '../assets/supporters/utp.webp';
 
-const logos: CommunityLogoProps[] = [
+const logos: LogoCardProps[] = [
     { src: BackboneLogo, alt: 'Backbone' },
     { src: CincoLogo, alt: 'Cinco' },
     { src: FLISoL, alt: 'FLISoL' },
@@ -15,14 +15,12 @@ const logos: CommunityLogoProps[] = [
 ];
 
 const Community = () => (
-    <section className="scroll-mt-20 px-4 py-16" id="community">
-        <h2 className="text-white text-3xl font-bold leading-tight tracking-[-0.015em] mb-12 text-center">Comunidades Organizadoras</h2>
-        <div className="flex flex-wrap items-center justify-center gap-8">
-            {logos.map((logo) => (
-                <CommunityLogo key={logo.alt} {...logo} />
-            ))}
-        </div>
-    </section>
+    <LogoSection
+        id="community"
+        title="Comunidades Organizadoras"
+        logos={logos}
+        gridCols="md:grid-cols-5"
+    />
 );
 
 export default Community;
