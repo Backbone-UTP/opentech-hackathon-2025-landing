@@ -8,6 +8,8 @@ const rules: RuleItemProps[] = [
     { text: 'Todo el código debe ser original y adherirse al problema.' },
     { text: 'Al final del evento, se debe entregar código fuente, documentación y presentación con demo funcional' },
     { text: 'Los criterios de evaluación incluyen innovación, funcionalidad, presentación y alineación con las temáticas.' },
+    { text: 'Toda solución desarrollada en la hackathon tendrá licencia GNU AGPL.' },
+    { text: 'Todos los participantes deben aceptar y respetar el código de conducta.' },
 ];
 
 const Rules = () => (
