@@ -19,10 +19,10 @@ interface HeaderProps {
 const Header: React.FC<HeaderProps> = ({ links, cta }) => {
     return (
         <header className="sticky top-0 z-10 flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#29382f] bg-[#111714]/80 px-10 py-3 backdrop-blur-sm">
-            <div className="flex items-center gap-4 text-white">
+            <div className="flex items-center gap-4 text-white md:justify-start justify-center flex-1">
                 <h2 className="text-white text-xl font-bold leading-tight tracking-[-0.015em]">OpenTech Hackathon</h2>
             </div>
-            <div className="flex flex-1 justify-end gap-8">
+            <div className="flex-1 justify-end gap-8 md:flex hidden">
                 <nav className="flex items-center gap-9">
                     {links.map((link) => (
                         <a key={link.href} className="text-white text-sm font-medium leading-normal transition-colors hover:text-[#1dc962]" href={link.href}>
