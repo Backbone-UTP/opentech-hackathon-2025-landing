@@ -3,6 +3,7 @@ import type { LogoCardProps } from '../shared/components/LogoCard';
 
 import AvanalcheLogo from '../assets/sponsors/avalanche.webp';
 import DailyBotLogo from '../assets/sponsors/dailybot.webp';
+import ElHubVenturesLogo from '../assets/sponsors/elhubventures.webp';
 
 const sponsorLogos: LogoCardProps[] = [
     {
@@ -17,12 +18,18 @@ const sponsorLogos: LogoCardProps[] = [
         href: 'https://dailybot.com/',
         isGrayscale: true,
     },
+    {
+        src: ElHubVenturesLogo,
+        alt: 'ElHub Ventures',
+        href: 'https://elhub.ventures/',
+        isGrayscale: true,
+    }
 ];
 
 const Sponsors = () => (
     <LogoSection
         id="sponsors"
-        title="Sponsors"
+        title="Patronadores"
         logos={sponsorLogos}
     />
 );
