@@ -29,7 +29,7 @@ const sponsorLogos: LogoCardProps[] = [
 const Sponsors = () => (
     <LogoSection
         id="sponsors"
-        title="Patronadores"
+        title="Patrocinadores"
         logos={sponsorLogos}
     />
 );

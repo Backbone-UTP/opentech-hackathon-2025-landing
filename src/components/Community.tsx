@@ -17,7 +17,7 @@ const logos: LogoCardProps[] = [
 const Community = () => (
     <LogoSection
         id="community"
-        title="Comunidades Organizadoras"
+        title="Organizadores"
         logos={logos}
         gridCols="md:grid-cols-5"
     />
