@@ -1,4 +1,3 @@
-import SocialLinks from './SocialLinks';
 
 import BackboneLogo from '../assets/supporters/backbone.webp';
 
@@ -10,7 +9,6 @@ const Footer = () => (
                     <a className="text-[#9eb7a8] text-base font-normal leading-normal transition-colors hover:text-[#1dc962]" href="/code-of-conduct">Código de Conducta</a>
                     <a className="text-[#9eb7a8] text-base font-normal leading-normal transition-colors hover:text-[#1dc962]" href="/terms-of-event">Términos del Evento</a>
                 </div>
-                <SocialLinks />
                 <span className='flex items-center gap-2'>
                     <p className="text-[#9eb7a8] text-sm font-normal leading-normal">Diseñado y desarrollado por
                     </p>
