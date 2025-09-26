@@ -3,7 +3,7 @@ import RuleItem from './RuleItem';
 
 const rules: RuleItemProps[] = [
     { text: 'Los participantes deben ser mayores de edad.' },
-    { text: 'Los equipos serán de 3 a 5 miembros.' },
+    { text: 'Los equipos serán de 4 miembros.' },
     { text: 'El problema será asignado y/o aprobado antes del inicio del hackathon.' },
     { text: 'Todo el código debe ser original y adherirse al problema.' },
     { text: 'Al final del evento, se debe entregar código fuente, documentación y presentación con demo funcional' },
