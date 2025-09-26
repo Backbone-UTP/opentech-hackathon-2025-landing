@@ -8,7 +8,7 @@ export interface LogoCardProps {
 const LogoCard = ({ src, alt, href, isGrayscale = false }: LogoCardProps) => {
     const imageClasses = [
         "w-full h-24 bg-contain bg-center bg-no-repeat transition-all",
-        isGrayscale ? "grayscale hover:grayscale-0" : "",
+        isGrayscale ? "md:grayscale hover:grayscale-0 grayscale-0" : "",
     ].join(" ");
 
     const containerClasses = [

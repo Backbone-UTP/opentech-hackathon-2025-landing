@@ -8,7 +8,7 @@ interface LogoSectionProps {
     gridCols?: string;
 }
 
-const LogoSection = ({ id, title, logos, gridCols = "md:grid-cols-3" }: LogoSectionProps) => (
+const LogoSection = ({ id, title, logos, gridCols = "md:grid-cols-4" }: LogoSectionProps) => (
     <section className="scroll-mt-20 px-4 py-16" id={id}>
         <h2 className="text-white text-3xl font-bold leading-tight tracking-[-0.015em] mb-12 text-center">{title}</h2>
         <div className={`grid grid-cols-2 ${gridCols} gap-8`}>
