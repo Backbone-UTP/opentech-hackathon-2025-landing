@@ -15,7 +15,7 @@ const aboutItems = [
     {
         icon: 'calendar_month',
         title: 'Fecha',
-        description: 'Oct - 11 - 2025',
+        description: 'Oct - 6 / Oct - 11 -\n 2025',
     },
 ];
 const About = () => {
